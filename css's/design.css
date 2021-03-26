@@ -49,7 +49,7 @@
 
 }
 
-.design .text_button_arrows button{
+.design .text_button_arrows .learn_more{
         
     margin-top:35px;
     margin-left:3px;
@@ -59,7 +59,7 @@
     background-color: #16a085;
     border:none;
 }
-.design .text_button_arrows button p{
+.design .text_button_arrows .learn_more p{
 
     margin-top:0px;
     margin-left:-6px;
@@ -72,7 +72,7 @@
 
 }
 
-.design .text_button_arrows button:hover{
+.design .text_button_arrows .learn_more:hover{
     cursor:pointer;
     background-color:  #0e8b4b;
 }
@@ -88,6 +88,7 @@
 }
 
 .design .number_arrows .number{
+
     margin-top:7px;
     width:100px;
     display: flex;
@@ -96,18 +97,22 @@
 }
 
 .design .number_arrows{
+
     display: flex;
     flex-direction: column;
     width:100px;
     height:50px;
+
 }
 .design .number_arrows .arrows{
+
     margin-top:1px;
     margin-left:2px;
     height:100px;
     width:42px;
     display:flex;
-justify-content: space-between;
+    justify-content: space-between;
+
 }
 
 .design .number_arrows .arrows img{
