@@ -1,0 +1,98 @@
+*{
+    padding: 0px 0px;
+    margin:0px 0px;
+}
+
+.subscribe{
+
+    width:1280px;
+    height:789px;
+    margin:0px auto;
+    background: url(../images/Livello3.png)no-repeat center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.subscribe .email_input {
+
+    height:300px;
+
+}
+
+.subscribe .email_input p{
+    margin-left:4px;
+    margin-top:101px;
+    left:10px;
+    font-size: 24px;
+    letter-spacing: 0.95mm;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Gotham Rounded";
+
+}
+
+.subscribe .input_box{
+
+    display:flex;
+    height:60px; 
+    margin-top: 30px;   
+    margin-left:68px;
+    width:343px;
+
+}
+
+.email_input .input_box .type_email{
+
+    border-top-left-radius : 3px;
+	border-bottom-left-radius: 3px;
+	width: 280px;
+	background-color: #ffffff;
+    color:black;
+	border: 0px;
+    font-weight: bold;
+    font-size: 16px;
+	letter-spacing: 3px;
+    list-style: 30px;
+    text-indent: 22px;
+    outline: none;
+}
+
+.button_mail .input_box input:invalid {
+
+	color: red;
+
+}
+
+.button_mail .input_box input:valid {
+
+	color: #00AA00;
+	
+}
+
+.subscribe .input_box .button_email{
+
+    height:60px;
+    width:63px;
+    border:0px;
+    border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+
+    background-color: #16a085;
+
+}
+
+.subscribe .input_box .button_email img{
+    margin-top:10px;
+    height:16px;
+
+}
+
+.subscribe .input_box .button_email:hover{
+
+    background-color: #0e8b4b;
+    cursor:pointer;
+
+}
+

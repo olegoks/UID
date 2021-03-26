@@ -1,0 +1,46 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+.footer{
+    height:131px;
+    display:flex;
+    width:1280px;
+    margin:0px auto;
+}
+
+.footer .text{
+    margin-left:126px;
+    margin-top:43px;
+    width:400px;
+    height:54px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.footer .text .links{
+    font-size: 14px;
+    letter-spacing: 2.1px;
+    color: #373737;
+    font-weight: bold;
+    font-family: "Gotham Rounded";
+}
+.footer .text .links:hover{
+    cursor:pointer;
+}
+
+.footer .text .copyright{
+
+    font-size: 14px;
+    letter-spacing: 2.1px;
+    color: #373737;
+    font-weight: bold;
+    font-family: "Gotham Rounded";
+
+}
+
+.footer .logo{
+    margin-top:38px;
+    margin-left:572px;
+}

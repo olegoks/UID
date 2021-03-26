@@ -1,0 +1,101 @@
+
+*{
+    
+    padding:0px 0px;
+    margin:0px 0px;
+
+}
+
+.your_life_a_photo{
+
+    margin:0px auto;
+    width:1280px;
+    background: url(../images/your_life_a_photo.png)no-repeat center;
+    background-position-y: 0px;
+    height:411px;
+    padding-top:334px;
+    
+}
+    
+.your_life_a_photo .your_life_a_photo_child{
+
+    margin:0px auto;
+    width:540px;
+    height:160px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Gotham Rounded";
+
+}
+
+.your_life_a_photo .button:hover{
+
+    background-color: #0e8b4b;
+    cursor: pointer;
+
+}
+
+.your_life_a_photo .button{
+
+    margin-top:18px;
+    width:165px;
+    height:49px;
+    border-radius: 3px;
+    background-color: #16a085;
+    border:none;
+
+}
+
+.your_life_a_photo .button p{
+
+    margin-top:3px;
+    margin-left:auto;
+    font-size: 12px;
+    letter-spacing: 1.8px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Gotham Rounded";
+
+}
+
+.your_life_a_photo h2{
+
+    margin-left:6px;
+    font-size: 35px;
+    letter-spacing: 6px;
+
+}
+
+.your_life_a_photo p{
+    margin-top:2px;
+    line-height: 32px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Gotham Rounded";
+    letter-spacing: 2.5px;
+
+}
+
+.social{
+
+    width: 114px;
+    height: auto;
+    display: flex;
+    margin-top: 206px;
+    margin-bottom: 20px;
+    margin-left:590px;
+    flex-grow: 1;
+
+}
+
+.social .twitter{
+    flex-grow: 1;
+}
+.social .discord{
+    flex-grow: 1;
+}
+.social .ball{
+    flex-grow: 1;
+}

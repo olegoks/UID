@@ -1,0 +1,106 @@
+.our_community{
+
+    margin:0px auto;
+    width:1280px;
+    padding:0px;
+    height:484px;
+    display: flex;
+    background-color:rgb(245, 246, 247);
+
+}
+
+.our_community .content{
+    position:relative;
+    left:63px;
+    top:95px;
+    width:1088px;
+    height:270px;
+    display:flex;
+    flex-direction: row;
+
+}
+
+.our_community .text_container{
+
+    height:270px;
+    width:320px;
+}
+
+.our_community .text{
+
+    margin-top:70px;
+    margin-left:0px;
+    display:flex;
+    flex-direction: column;
+
+
+    height:158px;
+
+}
+.our_community .text h2{
+    margin-top:28px;
+    margin-left:65px;
+    font-size: 16px;
+    letter-spacing: 2.4px;
+    line-height: 20px;
+    color: #373737;
+    font-weight: bold;
+    font-family: "Gotham Rounded";
+    width:200px
+}
+
+.our_community .text p{
+    margin-top:18.5px;
+    margin-left:55px;
+    font-size: 10px;
+    letter-spacing: 0.42mm;
+    color: #373737;
+    font-weight: bold;
+    font-family: "Gotham Rounded";
+    text-align: center;
+    width:200px;   
+}
+
+.our_community .text img{
+ margin-top:0px;
+   margin-left:125px;
+  width:59px;
+  height:55px;
+
+}
+
+.our_community .photos{
+
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 768px;
+    height:270px;
+}
+
+.our_community .photos .arrows{
+
+    height:26px;
+    width: 39px;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.our_community .photos .photos_album{
+    display:flex;
+    flex-direction: row;    
+    justify-content: space-between;   
+    width:765px;
+}
+
+.our_community .photos .photos_album img{
+    width:370px;
+}
+
+.our_community .photos .photos_album .column{
+
+    display:flex;
+    flex-direction: column;
+
+}

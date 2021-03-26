@@ -1,0 +1,123 @@
+*{
+
+    padding:0px;
+    margin:0px;
+
+}
+
+.design{
+
+    margin:0px auto;
+    width:1280px;
+    display: flex;
+    overflow:hidden;
+    height:560px;
+
+}
+.design .phone_image{
+
+    position: relative;
+    top:150px;
+    left:125px;
+    width:315px;
+    height:607px;
+
+}
+
+.design .text_button_arrows{
+
+    top:145px;
+    left:450px;
+    position: relative;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: black;
+    font-weight: bold;
+    font-family: "Gotham Rounded";
+    border:none;
+
+}
+
+.design .text_button_arrows h2{
+    
+    font-size: 17px;
+    letter-spacing: 3.5px;
+    line-height: 22px;
+    color: #16a085;
+    font-weight: bold;
+    font-family: "Gotham Rounded";
+
+}
+
+.design .text_button_arrows button{
+        
+    margin-top:35px;
+    margin-left:3px;
+    width: 192px;
+    height: 51px;
+    border-radius: 0px;
+    background-color: #16a085;
+    border:none;
+}
+.design .text_button_arrows button p{
+
+    margin-top:0px;
+    margin-left:-6px;
+    width:auto;
+    letter-spacing: 0.42mm;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Gotham Rounded";
+
+}
+
+.design .text_button_arrows button:hover{
+    cursor:pointer;
+    background-color:  #0e8b4b;
+}
+
+.design .text_button_arrows p{
+    margin-left:3px;
+    margin-top:33px;
+    font-size: 12px;
+    line-height: 22.4px;
+    letter-spacing: 0.44mm;
+    color: #373737;
+    font-family: "Gotham Rounded";
+}
+
+.design .number_arrows .number{
+    margin-top:7px;
+    width:100px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.design .number_arrows{
+    display: flex;
+    flex-direction: column;
+    width:100px;
+    height:50px;
+}
+.design .number_arrows .arrows{
+    margin-top:1px;
+    margin-left:2px;
+    height:100px;
+    width:42px;
+    display:flex;
+justify-content: space-between;
+}
+
+.design .number_arrows .arrows img{
+    height:17px;
+    width: 11px;
+    flex-direction: row;
+    
+}
+
+.design .number_arrows  .number p{
+    margin-left: 1px;
+    margin-top:33px;
+}
